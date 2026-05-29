@@ -14,6 +14,12 @@ An interactive, fast-paced LED strip game controlled by an STM32F031K6 microcont
 * **Dynamic Difficulty:** Enemy spawn rates and movement speeds increase progressively as the player's score goes up.
 * **Collision System:** Real-time distance calculation between projectiles and enemies with immediate visual and auditory feedback upon impact. RGB-Guardian
 
+### ⚙️ How to Build & Run
+1. Clone this repository to your local machine.
+2. Open **STM32CubeIDE** and import the project into your workspace.
+3. Build the project using the internal GCC compiler.
+4. Flash the compiled firmware (`.elf`/`.bin` file) to the STM32F031K6 using an **ST-LINK** debugger.
+
 * ### 🤝 Contributors
 * **[Muhammed Arda Korkut](https://github.com/mardakorkut)** - Co-Developer
 * **[Muhammed Çayhan](https://github.com/Mcayhan)** - Co-Developer

@@ -4,7 +4,7 @@ An interactive, fast-paced LED strip game controlled by an STM32F031K6 microcont
 
 ### 🛠️ Tech Stack & Hardware
 * **Microcontroller:** STM32F031K6
-* **Language:** C / C++
+* **Language:** C
 * **Hardware:** WS2812B Addressable LED Strip (57 LEDs), Push Buttons, Active Buzzer
 * **Core Peripherals:** * **TIM1 & DMA:** For non-blocking, precise PWM signal generation to drive the LED strip.
 * **GPIO:** For button debouncing and auditory feedback (buzzer).
